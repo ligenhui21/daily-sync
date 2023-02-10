@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     #  每10分钟检查一次
-    - cron: "0 */12 * * *"
+    - cron: "0 7,8,9,10 * * ?"
   push:
     branches:
       - main
